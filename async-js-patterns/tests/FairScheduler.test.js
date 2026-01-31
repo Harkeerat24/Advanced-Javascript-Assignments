@@ -22,7 +22,6 @@ describe("FairScheduler", () => {
 
     scheduler.schedule(async () => order.push("old-low"), 1);
 
-    // simulate waiting time
     jest.advanceTimersByTime(1000);
 
     scheduler.schedule(async () => order.push("new-high"), 10);

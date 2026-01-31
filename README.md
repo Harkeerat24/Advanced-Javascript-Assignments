@@ -2,7 +2,7 @@
 
 This is Javascript Assignments, Here's is the structure of 
 
-  - [01-async-js](01-async-js/README.md)
+  - [async-js-patterns](async-js-patterns/README.md)
 
 ---
 
